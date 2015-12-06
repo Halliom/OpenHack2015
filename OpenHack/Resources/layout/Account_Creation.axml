@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:background="#ffffffff">
+    <TextView
+        android:text="Create an Account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#707070"
+        android:id="@+id/createAccountText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#707070"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nameFieldCreate"
+        android:text="Full Name" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#707070"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/emailFieldCreate"
+        android:text="E-mail" />
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#707070"
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phoneFieldCreate"
+        android:text="Phone" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#707070"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/passwordFieldCreate"
+        android:text="Password" />
+    <Button
+        android:text="Next Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:id="@+id/nextPage" />
+</RelativeLayout>
